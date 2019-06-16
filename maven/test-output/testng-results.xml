@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12150" started-at="2019-06-10T17:15:45Z" finished-at="2019-06-10T17:15:57Z">
+  <suite name="Default suite" duration-ms="103" started-at="2019-06-16T10:01:58Z" finished-at="2019-06-16T10:01:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12150" started-at="2019-06-10T17:15:45Z" finished-at="2019-06-10T17:15:57Z">
-      <class name="selenium.maven.ChromeheadlessTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.maven.ChromeheadlessTest@35851384]" name="beforeClass" is-config="true" duration-ms="6201" started-at="2019-06-10T22:45:45Z" finished-at="2019-06-10T22:45:51Z">
+    <test name="Default test" duration-ms="103" started-at="2019-06-16T10:01:58Z" finished-at="2019-06-16T10:01:58Z">
+      <class name="selenium.maven.TestngannotationsTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="beforeSuite" is-config="true" duration-ms="51" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:selenium.maven.ChromeheadlessTest@35851384]" name="f" duration-ms="5039" started-at="2019-06-10T22:45:51Z" finished-at="2019-06-10T22:45:56Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.maven.ChromeheadlessTest@35851384]" name="afterClass" is-config="true" duration-ms="889" started-at="2019-06-10T22:45:56Z" finished-at="2019-06-10T22:45:57Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="testCase1" duration-ms="30" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="testCase2" duration-ms="1" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- selenium.maven.ChromeheadlessTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-06-16T15:31:58Z" finished-at="2019-06-16T15:31:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:selenium.maven.TestngannotationsTest@5a01ccaa]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-06-16T15:31:59Z" finished-at="2019-06-16T15:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- selenium.maven.TestngannotationsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
